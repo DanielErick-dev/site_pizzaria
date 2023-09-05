@@ -1,2 +1,7 @@
+# variaveis de ambiente
+
 .venv
-.log
+.env
+
+# arquivos temporarios de compilação
+__pycache__/
