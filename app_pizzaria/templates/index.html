@@ -7,9 +7,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizzaria</title>
+    <style>
+        .conjunto-de-icones{
+          display: flex;
+          max-height: 10%;
+          
+
+        }
+        .conjunto-de-icones img{
+          margin-left: 10%;
+          width: 10%;
+        }
+    </style>
   </head>
   <body>
-    
    <header>
     <nav class="navigation">
      <span>PIZZA IMPÉRIO</span>
@@ -27,7 +38,12 @@
         <span class="bar"></span>
       </div>
     </nav>
+    
   </header>
+  <div class="conjunto-de-icones">
+    <img src="{% static 'images/icone_sorvete.png' %}" alt='icone sorvete'>
+  </div>
+  
 
 
 
