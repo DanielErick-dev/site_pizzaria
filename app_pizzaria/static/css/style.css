@@ -7,6 +7,9 @@
   text-decoration: none;
 }
 
+  
+  
+
 :root{
   --rosa:rgb(255, 0, 0);
   --roxo: rgb(255, 0, 0);
@@ -51,10 +54,10 @@ body{
 }
 
 .navigation ul li a{
-   color: var(--black);
-   font-size: 17px;
-   font-weight: 500;
-   transition: all 0.5s;
+  color: var(--black);
+  font-size: 17px;
+  font-weight: 500;
+  transition: all 0.5s;
 }
 
 .navigation ul li a:hover{
